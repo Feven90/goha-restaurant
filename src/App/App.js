@@ -3,8 +3,7 @@ import './App.scss';
 import AdminPage from './Pages/AdminPage/AdminPage';
 import MenuPage from './Pages/MenuPage/MenuPage';
 import HomePage from './Pages/HomePage/HomePage';
-import ContactPage from './Pages/ContactPage/ContactPage';
-import LocationPage from './Pages/LocationPage/LocationPage';
+import AboutPage from './Pages/AboutPage/AboutPage';
 import NavbarComponent from './Components/NavbarComponent/NavbarComponent';
 import { Route, BrowserRouter, Switch } from "react-router-dom";
 
@@ -24,19 +23,14 @@ function App() {
             component={AdminPage}
           />
           <Route 
-            path="/contact"
-            exact
-            component={ContactPage}
-          />
-          <Route 
             path="/menu"
             exact
             component={MenuPage}
           />
           <Route 
-            path="/location"
+            path="/about"
             exact
-            component={LocationPage}
+            component={AboutPage}
           />
         </Switch>
       </BrowserRouter>
