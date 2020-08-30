@@ -39,7 +39,7 @@ function HomePage() {
                             <img className="tile-images" src="https://selamselamdotme.files.wordpress.com/2014/12/img_7013.jpg" alt="Ethiopian Food" />
                         </div>
                         <div className="tile-text">
-                            <h4>OUR STORY</h4>
+                            <h4>OUR FOOD</h4>
                             <p className="short-description">With Atlanta favorites like our Vegetarian Platter and The “Original Meat Lovers”, we offer a little something for everyone. If you have trouble deciding, our helpful staff can assist.</p>
                         </div>
                         <div class="welcome-button-div">
@@ -51,7 +51,7 @@ function HomePage() {
                             <img className="tile-images" src="https://i.pinimg.com/originals/82/85/d6/8285d6b01b7f21a54c700304074e06dd.jpg" alt="Ethiopian Food" />
                         </div>
                         <div className="tile-text">
-                            <h4>OUR STORY</h4>
+                            <h4>CATERING</h4>
                             <p className="short-description">Experience the taste of authentic Ethiopian cuisine at your next event, brought to you with culinary professionalism and care that only Desta can provide.</p>
                         </div>
                         <div class="welcome-button-div">
